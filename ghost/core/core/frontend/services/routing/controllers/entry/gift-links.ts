@@ -30,7 +30,7 @@ function setGiftTemplateFlag(res: EntryResponse, token: string): void {
         ...localTemplateOptions,
         data: {
             ...localTemplateOptions.data,
-            _gift: token
+            _giftLink: token
         }
     });
 }
